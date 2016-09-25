@@ -1,0 +1,122 @@
+body{
+    background-image:url(image/background.png);
+    font-size:8pt;
+    font-family:Verdana,Tahoma,sans-serif;
+    margin:0px;
+    padding:0px;
+    background-repeat:repeat;
+}
+div#banner{
+   text-align:center;
+   background-image:url(image/bannerbackground.png);
+   background-repeat:repeat-x;
+   height:50px;
+}
+h1{ 
+    text-align:center;
+    font-size:24pt;
+    font-weight:bold;
+}
+div#overallcontent{
+    margin-left:auto;
+    margin-right:auto;
+    width:800px;
+    border:4px solid gray;
+    overflow:auto;
+}
+div#rightsection{
+    float:right;
+    width:250px;
+    background-color:#A2B964;
+    font-family:Arial,sans-serif;
+}
+div#leftsection{
+    float:left;
+    width:550px;
+}
+img#rottenbigimage{   
+    padding:0px;
+    margin:0px;
+}
+div#rottenbig{
+    position:relative;
+    height:83px;
+    background-image:url(image/rottenbackground.png);
+    background-repeat:repeat-x;
+    width:550px;
+}
+div#rottenbig img{
+    height:83px;
+    margin:0px;
+    float:left;
+}
+div#ratingmessage{
+    position:absolute;
+    left:100px;
+    bottom:0px;
+}
+span#rating{
+    color:red;
+    font-size:48pt;
+    font-weight:bold;
+}
+span#message{
+    font:8pt;
+    color:white;
+}
+div#leftreviews{
+   margin:0.5em;
+   width:47%;
+   float:left;
+}
+div#rightreviews{
+    margin:0.5em;
+    width:47%;
+    float:left;
+}
+
+p.review{   
+    font-size:8pt;
+    font-weight:bold;
+    border:2px solid gray;
+    padding:8px;
+    background-color:#E1D697; 
+}
+div#review3 p.review{
+    padding-bottom:15px;
+}
+p.reviewer{
+    font-style:italic;
+    
+}
+p img{
+    margin-right:5px;
+    float:left;
+}
+div#reviews{
+    margin-left:0.5em;
+}
+div#reviews>div>div{
+    margin-bottom:3em;
+}
+div#movie_info{
+    margin-left:1em;
+}
+dt{ 
+    margin-top:1em;
+    font-weight:bold;
+}
+p#bottombar{
+    float:right;
+    margin:0px;
+    padding:5px;
+    width:800px;
+    text-align:center;
+    background-color:#A2B964;
+}
+span#check{
+    
+    position:fixed;
+    right:0px;
+    bottom:0px;
+}
