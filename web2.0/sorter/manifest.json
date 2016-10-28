@@ -1,0 +1,30 @@
+{
+    "name":"Sort_table",
+    "manifest_version":2,
+    "version":"1.0",
+    "description":"表格要以thead,tr,th标签生成标题",
+    "browser_action":{
+        "default_icon": "ascend.png",
+        "default_title":"表格排序"
+    },
+    "content_scripts":[
+        {
+            "matches":["http://*/*","file:///*/*","https://*/*"],
+            "js":["jquery.js","lodash.js","sorter.js"],
+            "css":["sorter.css"]
+        }
+   ],
+   "permissions": [
+    "storage",
+    "activeTab",
+    "http://*/*" ,
+    "https://*/*" ,
+    "file:///home/libcir/desktop/index.html"
+  ],
+  "web_accessible_resources":[
+             "jquery.js",
+             "lodash.js",
+             "sorter.js",
+             "*.png"
+    ]
+}

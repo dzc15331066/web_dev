@@ -1,0 +1,30 @@
+table{
+    border-collapse:collapse;  
+}
+table,th,td{
+    border:1px solid #bfbfbf;
+    text-align:left;
+}
+th{
+    color:white;
+}
+thead{
+    background-color:#031a80;
+}
+table#staff th{
+    padding-right:25px;
+}
+.alternate{
+    background-color:#bfbfbf;
+}
+.ascend{
+    background-image:url(chrome-extension://__MSG_@@extension_id__/ascend.png);
+}
+.ascend,.descend{
+    background-color:#a6affc;
+    background-repeat:no-repeat;
+    background-position:right;
+}
+.descend{
+    background-image:url(chrome-extension://__MSG_@@extension_id__/descend.png);
+}
